@@ -4,7 +4,7 @@ import numpy as np
 
 # --------------------
 # 가상 원소 데이터 (Caching 적용)
-@st.cache_data
+#@st.cache_data
 def load_elements_data():
     """가상 원소 데이터 생성"""
     elements_data = {
